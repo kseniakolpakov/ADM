@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		127998C428325D0100805762 /* CaseyProjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127998C328325D0100805762 /* CaseyProjApp.swift */; };
-		127998C628325D0100805762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127998C528325D0100805762 /* ContentView.swift */; };
+		127998C628325D0100805762 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127998C528325D0100805762 /* MainView.swift */; };
 		127998C828325D0300805762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127998C728325D0300805762 /* Assets.xcassets */; };
 		127998CB28325D0300805762 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127998CA28325D0300805762 /* Preview Assets.xcassets */; };
+		127998D328325DBF00805762 /* InterpolationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127998D228325DBF00805762 /* InterpolationSearchView.swift */; };
+		127998D528325DE400805762 /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127998D428325DE400805762 /* NavigationButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		127998C028325D0100805762 /* CaseyProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaseyProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		127998C328325D0100805762 /* CaseyProjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseyProjApp.swift; sourceTree = "<group>"; };
-		127998C528325D0100805762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		127998C528325D0100805762 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		127998C728325D0300805762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		127998CA28325D0300805762 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		127998D228325DBF00805762 /* InterpolationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolationSearchView.swift; sourceTree = "<group>"; };
+		127998D428325DE400805762 /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				127998C328325D0100805762 /* CaseyProjApp.swift */,
-				127998C528325D0100805762 /* ContentView.swift */,
+				127998D128325D7D00805762 /* View */,
 				127998C728325D0300805762 /* Assets.xcassets */,
 				127998C928325D0300805762 /* Preview Content */,
 			);
@@ -65,6 +69,16 @@
 				127998CA28325D0300805762 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		127998D128325D7D00805762 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				127998C528325D0100805762 /* MainView.swift */,
+				127998D228325DBF00805762 /* InterpolationSearchView.swift */,
+				127998D428325DE400805762 /* NavigationButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127998C628325D0100805762 /* ContentView.swift in Sources */,
+				127998D328325DBF00805762 /* InterpolationSearchView.swift in Sources */,
+				127998D528325DE400805762 /* NavigationButton.swift in Sources */,
+				127998C628325D0100805762 /* MainView.swift in Sources */,
 				127998C428325D0100805762 /* CaseyProjApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
